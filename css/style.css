@@ -1,0 +1,83 @@
+html{
+    height: 100%;
+}
+body{
+    max-width: 1600px;
+    max-height: 1400px;
+    background-color:  #e2e7ec;
+}
+.my-flex-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.blog-grid{
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 360px;
+    height: 540px;
+    background: #fff;
+}
+.blog-grid:first-child{
+    width: 740px;
+}
+.blog{
+    position: relative;
+    display: block;
+}
+.blog__info-cars{
+    position: absolute;
+    display: block;
+    width: 433px;
+    height: 96px;
+    font-family: HansKendrick;
+    bottom: 40px;
+    left: 43px;
+}
+.blog__date{
+    color:  #818181;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.blog__title-cars{
+    color:  #ffffff;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.blog__info{
+    padding-left: 27px;
+    padding-top: 27px;
+}
+.blog__title{
+    color:  #1d1c1c;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+.legs{
+    margin-top: 34px;
+}
+.loading{
+    margin-top: 79px;
+}
+.loading__text{
+    font-family: HansKendrick;
+    color:  #99a5b0;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.loading__text:before{
+    content: url("../img/Vector Smart Object.png");
+    margin-right: 13px;
+    margin-top: 5px;
+}
