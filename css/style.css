@@ -3,13 +3,12 @@ html{
 }
 body{
     max-width: 1600px;
-    max-height: 1400px;
     background-color:  #e2e7ec;
 }
 .my-flex-container{
     display: flex;
     max-width: 1140px;
-    margin: 100px auto;
+    margin: 91px auto;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -67,7 +66,10 @@ body{
     margin-top: 34px;
 }
 .loading{
-    margin-top: 79px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 .loading__text{
     font-family: HansKendrick;
@@ -79,5 +81,4 @@ body{
 .loading__text:before{
     content: url("../img/Vector Smart Object.png");
     margin-right: 13px;
-    margin-top: 5px;
 }
